@@ -1,12 +1,10 @@
 Documentação do Projeto: API de Monitoramento de Pedidos de Delivery
 
 1. Introdução
-Uma breve descrição do que é o projeto.
 
 Esta API tem como objetivo o monitoramento de pedidos de delivery. Ela permite registrar pedidos, consultar estatísticas de entregas, atualizar status de pedidos e gerar relatórios detalhados sobre os pedidos.
 
 2. Tecnologias Utilizadas
-Aqui você pode listar as tecnologias e ferramentas usadas no desenvolvimento do projeto.
 
 . FastAPI – Framework para criação da API.
 . SQLite – Banco de dados utilizado para armazenar os dados dos pedidos.
@@ -15,7 +13,6 @@ Aqui você pode listar as tecnologias e ferramentas usadas no desenvolvimento do
 . Uvicorn – Servidor ASGI para rodar a aplicação FastAPI.
 
 3. Funcionalidades
-Descreva as funcionalidades principais da API.
 
 Cadastrar Pedido
 
@@ -36,7 +33,6 @@ Consultar Estatísticas
 . Descrição: Obtém estatísticas sobre os pedidos, como tempo médio de entrega, total de pedidos por status e total de pedidos por dia.
 
 4. Como Rodar o Projeto Localmente
-Aqui você pode adicionar instruções detalhadas sobre como rodar o projeto na máquina local do usuário.
 
 Passos para Rodar o Projeto
 
@@ -60,8 +56,6 @@ uvicorn app.main:app --reload
 Agora você pode acessar a API em http://localhost:8000.
 
 5. Endpoints
-
-Liste todos os endpoints da API com exemplos de requisições e respostas.
 
 POST /pedidos/
 
@@ -88,7 +82,6 @@ GET /estatisticas
 }
 
 6. Modelos de Dados
-Aqui você pode descrever como as tabelas do banco de dados estão estruturadas.
 
 Tabela Pedidos
 
@@ -99,7 +92,6 @@ Tabela Pedidos
 . hora_entrega: Data e hora de entrega (datetime)
 
 7. Contribuições
-Instruções para quem deseja contribuir no projeto.
 
 Se alguém quiser contribuir para o projeto, basta seguir esses passos:
 
@@ -110,6 +102,3 @@ Se alguém quiser contribuir para o projeto, basta seguir esses passos:
 . Criar um Pull Request no repositório original.
 
 8. Licença
-Informe sobre a licença de uso do código (caso tenha uma). Exemplo de uma licença MIT:
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
