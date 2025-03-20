@@ -16,10 +16,10 @@ Esta API tem como objetivo o monitoramento de pedidos de delivery. Ela permite r
 
 Cadastrar Pedido
 
-Método: POST
-Endpoint: /pedidos/
-Descrição: Cadastra um novo pedido na plataforma.
-Exemplo de corpo:
+. Método: POST
+. Endpoint: /pedidos/
+. Descrição: Cadastra um novo pedido na plataforma.
+. Exemplo de corpo:
 
 {
   "cliente_nome": "João Silva",
